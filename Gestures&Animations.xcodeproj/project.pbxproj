@@ -11,14 +11,18 @@
 		C14A8E2F27FC8DA70012FD4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A8E2E27FC8DA70012FD4E /* ContentView.swift */; };
 		C14A8E3127FC8DAA0012FD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14A8E3027FC8DAA0012FD4E /* Assets.xcassets */; };
 		C14A8E3427FC8DAA0012FD4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14A8E3327FC8DAA0012FD4E /* Preview Assets.xcassets */; };
+		C14A8E3B27FC8DDD0012FD4E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A8E3A27FC8DDD0012FD4E /* CardView.swift */; };
+		C14A8E3D27FCC0A00012FD4E /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A8E3C27FCC0A00012FD4E /* AnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C14A8E2927FC8DA70012FD4E /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C14A8E2C27FC8DA70012FD4E /* GesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesApp.swift; sourceTree = "<group>"; };
-		C14A8E2E27FC8DA70012FD4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C14A8E3027FC8DAA0012FD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C14A8E2927FC8DA70012FD4E /* Gestures&Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gestures&Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14A8E2C27FC8DA70012FD4E /* GesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GesturesApp.swift; path = "Gestures&Animations/GesturesApp.swift"; sourceTree = "<group>"; };
+		C14A8E2E27FC8DA70012FD4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Gestures&Animations/ContentView.swift"; sourceTree = "<group>"; };
+		C14A8E3027FC8DAA0012FD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Gestures&Animations/Assets.xcassets"; sourceTree = "<group>"; };
 		C14A8E3327FC8DAA0012FD4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C14A8E3A27FC8DDD0012FD4E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = "Gestures&Animations/CardView.swift"; sourceTree = "<group>"; };
+		C14A8E3C27FCC0A00012FD4E /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationView.swift; path = "Gestures&Animations/AnimationView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 		C14A8E2027FC8DA70012FD4E = {
 			isa = PBXGroup;
 			children = (
-				C14A8E2B27FC8DA70012FD4E /* Gestures */,
+				C14A8E2B27FC8DA70012FD4E /* Gestures&Animations */,
 				C14A8E2A27FC8DA70012FD4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,36 +47,40 @@
 		C14A8E2A27FC8DA70012FD4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C14A8E2927FC8DA70012FD4E /* Gestures.app */,
+				C14A8E2927FC8DA70012FD4E /* Gestures&Animations.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C14A8E2B27FC8DA70012FD4E /* Gestures */ = {
+		C14A8E2B27FC8DA70012FD4E /* Gestures&Animations */ = {
 			isa = PBXGroup;
 			children = (
 				C14A8E2C27FC8DA70012FD4E /* GesturesApp.swift */,
 				C14A8E2E27FC8DA70012FD4E /* ContentView.swift */,
 				C14A8E3027FC8DAA0012FD4E /* Assets.xcassets */,
 				C14A8E3227FC8DAA0012FD4E /* Preview Content */,
+				C14A8E3A27FC8DDD0012FD4E /* CardView.swift */,
+				C14A8E3C27FCC0A00012FD4E /* AnimationView.swift */,
 			);
-			path = Gestures;
-			sourceTree = "<group>";
+			name = "Gestures&Animations";
+			path = "/Users/fer/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/../../../../../../../../decimo_sem/ios/Gestures&Animations";
+			sourceTree = "<absolute>";
 		};
 		C14A8E3227FC8DAA0012FD4E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				C14A8E3327FC8DAA0012FD4E /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			name = "Preview Content";
+			path = "Gestures&Animations/Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C14A8E2827FC8DA70012FD4E /* Gestures */ = {
+		C14A8E2827FC8DA70012FD4E /* Gestures&Animations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C14A8E3727FC8DAA0012FD4E /* Build configuration list for PBXNativeTarget "Gestures" */;
+			buildConfigurationList = C14A8E3727FC8DAA0012FD4E /* Build configuration list for PBXNativeTarget "Gestures&Animations" */;
 			buildPhases = (
 				C14A8E2527FC8DA70012FD4E /* Sources */,
 				C14A8E2627FC8DA70012FD4E /* Frameworks */,
@@ -82,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = Gestures;
+			name = "Gestures&Animations";
 			productName = Gestures;
-			productReference = C14A8E2927FC8DA70012FD4E /* Gestures.app */;
+			productReference = C14A8E2927FC8DA70012FD4E /* Gestures&Animations.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C14A8E2427FC8DA70012FD4E /* Build configuration list for PBXProject "Gestures" */;
+			buildConfigurationList = C14A8E2427FC8DA70012FD4E /* Build configuration list for PBXProject "Gestures&Animations" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C14A8E2827FC8DA70012FD4E /* Gestures */,
+				C14A8E2827FC8DA70012FD4E /* Gestures&Animations */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C14A8E2F27FC8DA70012FD4E /* ContentView.swift in Sources */,
+				C14A8E3B27FC8DDD0012FD4E /* CardView.swift in Sources */,
+				C14A8E3D27FCC0A00012FD4E /* AnimationView.swift in Sources */,
 				C14A8E2D27FC8DA70012FD4E /* GesturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +278,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gestures/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Gestures&Animations/Preview Content\"";
 				DEVELOPMENT_TEAM = 4FT83F7673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FernandoBenavides.Gestures;
+				PRODUCT_BUNDLE_IDENTIFIER = "FernandoBenavides.Gestures&Animations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gestures/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Gestures&Animations/Preview Content\"";
 				DEVELOPMENT_TEAM = 4FT83F7673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FernandoBenavides.Gestures;
+				PRODUCT_BUNDLE_IDENTIFIER = "FernandoBenavides.Gestures&Animations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C14A8E2427FC8DA70012FD4E /* Build configuration list for PBXProject "Gestures" */ = {
+		C14A8E2427FC8DA70012FD4E /* Build configuration list for PBXProject "Gestures&Animations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C14A8E3527FC8DAA0012FD4E /* Debug */,
@@ -331,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C14A8E3727FC8DAA0012FD4E /* Build configuration list for PBXNativeTarget "Gestures" */ = {
+		C14A8E3727FC8DAA0012FD4E /* Build configuration list for PBXNativeTarget "Gestures&Animations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C14A8E3827FC8DAA0012FD4E /* Debug */,
